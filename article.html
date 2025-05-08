@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrierty.blog - Dunia Film Ghibli</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigasi -->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="blog-listing.html">Arrierty.blog</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog-listing.html">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="article.html">Blog</a>
+                    </li>
+                </ul>
+                <form id="search-form" class="d-flex ms-3">
+                    <input id="search-input" class="form-control me-2" type="search" placeholder="Cari..." aria-label="Search">
+                    <button class="btn btn-outline-primary" type="submit">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner -->
+    <section class="banner">
+        <div class="container text-center">
+            <h1>Artikel Blog</h1>
+            <p>Mengenal Dunia Studio Ghibli yang Penuh Keajaiban</p>
+        </div>
+    </section>
+
+    <!-- Artikel -->
+    <section class="article-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1">
+                    <article class="article-container">
+                        <!-- Header -->
+                        <header class="article-header">
+                            <span class="category">Film</span>
+                            <span class="date"><i class="far fa-calendar-alt me-1"></i> 8 Mei 2025 &bull; Oleh Hana Pradipta</span>
+                            <h1>Studio Ghibli: Keindahan Cerita dalam Setiap Animasi</h1>
+                        </header>
+
+                        <!-- Gambar Utama -->
+                        <img src="/api/placeholder/1200/600" alt="Ilustrasi Film Ghibli" class="article-featured-image">
+
+                        <!-- Konten Artikel -->
+                        <div class="article-content">
+                            <p>Studio Ghibli adalah salah satu studio animasi paling berpengaruh di dunia. Didirikan oleh Hayao Miyazaki dan Isao Takahata, studio ini dikenal melalui karya-karyanya yang menggabungkan imajinasi, pesan mendalam, dan visual yang memukau.</p>
+
+                            <h2>Awal Perjalanan Ghibli</h2>
+                            <p>Studio Ghibli berdiri pada tahun 1985 setelah kesuksesan film <em>Nausicaä of the Valley of the Wind</em>. Sejak saat itu, Ghibli terus menciptakan film-film yang tak hanya disukai anak-anak, tetapi juga menyentuh hati orang dewasa.</p>
+
+                            <img src="/api/placeholder/900/500" alt="Cuplikan film Spirited Away" class="img-fluid">
+
+                            <h2>Film-Film Ikonik</h2>
+                            <p>Beberapa film paling ikonik dari Ghibli antara lain:</p>
+                            <ul>
+                                <li><strong>Spirited Away</strong> – Perjalanan magis seorang gadis kecil di dunia roh.</li>
+                                <li><strong>My Neighbor Totoro</strong> – Persahabatan anak-anak dengan makhluk hutan yang menggemaskan.</li>
+                                <li><strong>Princess Mononoke</strong> – Kisah epik tentang konflik manusia dan alam.</li>
+                                <li><strong>Howl's Moving Castle</strong> – Sebuah dongeng tentang cinta, sihir, dan keberanian.</li>
+                            </ul>
+
+                            <h2>Nilai dan Filosofi</h2>
+                            <p>Film Ghibli terkenal karena menyuarakan pesan perdamaian, feminisme, pentingnya alam, serta kritik terhadap modernitas dan perang. Cerita-ceritanya kerap tidak menawarkan solusi sederhana, melainkan menggugah penonton untuk berpikir dan merasakan lebih dalam.</p>
+
+                            <h2>Warisan dan Masa Depan</h2>
+                            <p>Warisan Ghibli tak hanya berupa film, tetapi juga museum di Mitaka, Jepang, dan pengaruh besar dalam dunia animasi global. Tahun 2023, film terbaru <em>The Boy and the Heron</em> kembali membuktikan bahwa karya Miyazaki tetap relevan dan penuh daya magis.</p>
+
+                            <h2>Kesimpulan</h2>
+                            <p>Studio Ghibli lebih dari sekadar pembuat film animasi. Ia adalah pelukis mimpi, penyampai pesan moral, dan jendela menuju dunia penuh keajaiban. Di setiap filmnya, penonton diajak merasakan petualangan, harapan, dan makna kehidupan yang lebih dalam.</p>
+                        </div>
+
+                        <!-- Artikel Terkait -->
+                        <div class="related-articles mt-5">
+                            <h3 class="mb-4">Artikel Terkait</h3>
+                            <div class="row">
+                                <div class="col-md-4 mb-4">
+                                    <div class="blog-card">
+                                        <img src="gambar/karakter.jpeg" alt="Totoro">
+                                        <div class="card-body">
+                                            <span class="category">Animasi</span>
+                                            <h5>Karakter Ghibli yang Paling Dicintai Sepanjang Masa</h5>
+                                            <a href="#" class="read-more">Baca Selengkapnya <i class="fas fa-arrow-right ms-1"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-4">
+                                    <div class="blog-card">
+                                        <img src="gambar/Museum.jpeg" alt="Museum Ghibli">
+                                        <div class="card-body">
+                                            <span class="category">Jepang</span>
+                                            <h5>Mengunjungi Museum Studio Ghibli: Panduan Lengkap</h5>
+                                            <a href="#" class="read-more">Baca Selengkapnya <i class="fas fa-arrow-right ms-1"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-4">
+                                    <div class="blog-card">
+                                        <img src="gambar/music.jpeg" alt="Soundtrack Ghibli">
+                                        <div class="card-body">
+                                            <span class="category">Musik</span>
+                                            <h5>Keindahan Musik Joe Hisaishi dalam Film Ghibli</h5>
+                                            <a href="#" class="read-more">Baca Selengkapnya <i class="fas fa-arrow-right ms-1"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Komentar -->
+                        <div class="comments mt-5">
+                            <h3>Komentar (3)</h3>
+
+                            <div class="comment">
+                                <div class="user-info">
+                                    <img src="/api/placeholder/100/100" alt="Avatar" class="avatar">
+                                    <div>
+                                        <h5 class="user-name">Ayu Lestari</h5>
+                                        <span class="date">8 Mei 2025 - 09:20 WIB</span>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <p>Aku tumbuh besar dengan film Ghibli. Sampai sekarang, Totoro tetap jadi favoritku!</p>
+                                </div>
+                            </div>
+
+                            <div class="comment">
+                                <div class="user-info">
+                                    <img src="/api/placeholder/100/100" alt="Avatar" class="avatar">
+                                    <div>
+                                        <h5 class="user-name">Rizky Maulana</h5>
+                                        <span class="date">8 Mei 2025 - 12:15 WIB</span>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <p>Artikel ini bikin nostalgia banget. Princess Mononoke menurutku film yang sangat kuat secara visual dan pesan.</p>
+                                </div>
+                            </div>
+
+                            <div class="comment">
+                                <div class="user-info">
+                                    <img src="/api/placeholder/100/100" alt="Avatar" class="avatar">
+                                    <div>
+                                        <h5 class="user-name">Sinta Dewi</h5>
+                                        <span class="date">8 Mei 2025 - 15:40 WIB</span>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <p>Aku suka banget cara artikel ini membahas filosofi di balik film-film Ghibli. Menyentuh banget!</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Form Komentar -->
+                        <div class="comment-form mt-5">
+                            <h3>Tinggalkan Komentar</h3>
+                            <form id="comment-form">
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <input type="text" id="name" class="form-control" placeholder="Nama Anda" required>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <input type="email" id="email" class="form-control" placeholder="Email Anda" required>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <textarea id="comment" class="form-control" placeholder="Tulis komentar..." required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Kirim Komentar</button>
+                            </form>
+                        </div>
+
+                        <!-- Bagikan -->
+                        <div class="share-buttons">
+                            <h4 class="mb-3">Bagikan Artikel Ini:</h4>
+                            <a href="#" title="Bagikan ke Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" title="Bagikan ke Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" title="Bagikan ke LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" title="Bagikan ke Pinterest"><i class="fab fa-pinterest"></i></a>
+                        </div>
+
+                        <!-- Navigasi Artikel -->
+                        <div class="article-navigation">
+                            <a href="#" class="prev">
+                                <i class="fas fa-arrow-left me-2"></i>
+                                <div>
+                                    <small>Artikel Sebelumnya</small>
+                                    <p class="mb-0">Karakter Ghibli Favorit Sepanjang Masa</p>
+                                </div>
+                            </a>
+                            <a href="#" class="next">
+                                <div class="text-end">
+                                    <small>Artikel Selanjutnya</small>
+                                    <p class="mb-0">Mengenal Dunia Magis Spirited Away</p>
+                                </div>
+                                <i class="fas fa-arrow-right ms-2"></i>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

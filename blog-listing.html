@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio Ghibli - Artikel Terbaru</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigasi -->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="blog-listing.html">GhibliWorld</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog-listing.html">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="blog-listing.html">Artikel</a>
+                    </li>
+                </ul>
+                <form id="search-form" class="d-flex ms-3">
+                    <input id="search-input" class="form-control me-2" type="search" placeholder="Cari artikel..." aria-label="Search">
+                    <button class="btn btn-outline-primary" type="submit">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner -->
+    <section class="banner">
+        <div class="container text-center">
+            <h1>Dunia Studio Ghibli</h1>
+            <p>Temukan cerita, karakter, dan keajaiban dari film-film legendaris Studio Ghibli</p>
+        </div>
+    </section>
+
+    <!-- Artikel Ghibli -->
+    <section class="blog-listings py-5">
+        <div class="container">
+            <div class="row">
+
+                <!-- Artikel 1 -->
+                <div class="col-md-6">
+                    <div class="blog-card">
+                        <img src="gambar/totoro.jpeg" alt="Totoro" class="Gambar" >
+                        <div class="card-body">
+                            <span class="category">Karakter</span>
+                            <span class="date"><i class="far fa-calendar-alt me-1"></i> 5 Mei 2025</span>
+                            <h3>Mengenal Totoro: Ikon Studio Ghibli</h3>
+                            <p>Tertarik dengan makhluk hutan berbulu ini? Mari jelajahi asal-usul dan makna filosofis di balik karakter Totoro.</p>
+                            <a href="article.html" class="read-more">Baca Selengkapnya <i class="fas fa-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Artikel 2 -->
+                <div class="col-md-6">
+                    <div class="blog-card">
+                        <img src="gambar/away.jpeg" alt="Spirited Away">
+                        <div class="card-body">
+                            <span class="category">Film</span>
+                            <span class="date"><i class="far fa-calendar-alt me-1"></i> 3 Mei 2025</span>
+                            <h3>Spirited Away: Dunia Roh yang Magis</h3>
+                            <p>Menelusuri pesan tersembunyi dan visual megah dalam film peraih Oscar karya Hayao Miyazaki ini.</p>
+                            <a href="article.html" class="read-more">Baca Selengkapnya <i class="fas fa-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Artikel 3 -->
+                <div class="col-md-6">
+                    <div class="blog-card">
+                        <img src="gambar/Howl.jpeg" alt="Howl's Moving Castle">
+                        <div class="card-body">
+                            <span class="category">Analisis</span>
+                            <span class="date"><i class="far fa-calendar-alt me-1"></i> 1 Mei 2025</span>
+                            <h3>Makna Cinta dan Perubahan dalam Howl's Moving Castle</h3>
+                            <p>Sebuah interpretasi tentang bagaimana film ini mengajarkan nilai keberanian, cinta, dan jati diri.</p>
+                            <a href="article.html" class="read-more">Baca Selengkapnya <i class="fas fa-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Artikel 4 -->
+                <div class="col-md-6">
+                    <div class="blog-card">
+                        <img src="gambar/Nausicaa.jpeg" alt="Nausicaä">
+                        <div class="card-body">
+                            <span class="category">Lingkungan</span>
+                            <span class="date"><i class="far fa-calendar-alt me-1"></i> 28 April 2025</span>
+                            <h3>Nausicaä dan Pesan Ekologis Ghibli</h3>
+                            <p>Film ini lebih dari sekadar petualangan; ia adalah refleksi atas krisis lingkungan yang terjadi di dunia nyata.</p>
+                            <a href="article.html" class="read-more">Baca Selengkapnya <i class="fas fa-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Artikel 5 -->
+                <div class="col-md-6">
+                    <div class="blog-card">
+                        <img src="gambar/food.jpeg" alt="Ghibli Food">
+                        <div class="card-body">
+                            <span class="category">Budaya</span>
+                            <span class="date"><i class="far fa-calendar-alt me-1"></i> 25 April 2025</span>
+                            <h3>Makanan Ghibli yang Menggugah Selera</h3>
+                            <p>Dari ramen di Spirited Away hingga sarapan Ponyo — mari bahas daya tarik makanan dalam film Ghibli.</p>
+                            <a href="article.html" class="read-more">Baca Selengkapnya <i class="fas fa-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Artikel 6 -->
+                <div class="col-md-6">
+                    <div class="blog-card">
+                        <img src="gambar/hayao.jpeg" alt="Hayao Miyazaki">
+                        <div class="card-body">
+                            <span class="category">Tokoh</span>
+                            <span class="date"><i class="far fa-calendar-alt me-1"></i> 22 April 2025</span>
+                            <h3>Hayao Miyazaki: Sang Maestro di Balik Keajaiban</h3>
+                            <p>Kilas balik perjalanan karier Miyazaki dalam menciptakan dunia-dunia yang menyentuh jiwa penonton segala usia.</p>
+                            <a href="article.html" class="read-more">Baca Selengkapnya <i class="fas fa-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pagination -->
+            <nav class="mt-5">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item disabled">
+                        <a class="page-link" href="#" tabindex="-1" aria-disabled="true"><i class="fas fa-chevron-left"></i></a>
+                    </li>
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#"><i class="fas fa-chevron-right"></i></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h5>Tentang Kami</h5>
+                    <p>GhibliWorld adalah platform bagi para penggemar untuk mengeksplorasi keindahan cerita, karakter, dan filosofi di balik karya-karya Studio Ghibli.</p>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-4">
+                    <h5>Kategori</h5>
+                    <ul>
+                        <li><a href="#">Film</a></li>
+                        <li><a href="#">Karakter</a></li>
+                        <li><a href="#">Budaya</a></li>
+                        <li><a href="#">Lingkungan</a></li>
+                        <li><a href="#">Tokoh</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-4">
+                    <h5>Menu</h5>
+                    <ul>
+                        <li><a href="blog-listing.html">Beranda</a></li>
+                        <li><a href="blog-listing.html">Artikel</a></li>
+                        <li><a href="#">Kebijakan Privasi</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4 mb-4">
+                    <h5>Newsletter</h5>
+                    <p>Berlangganan untuk mendapatkan artikel dan kabar terbaru tentang dunia Ghibli.</p>
+                    <form>
+                        <div class="input-group mb-3">
+                            <input type="email" class="form-control" placeholder="Email Anda">
+                            <button class="btn btn-primary" type="button">Langganan</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="text-center">
+                <p>&copy; 2025 GhibliWorld. Hak cipta dilindungi.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="scripts.js"></script>
+</body>
+</html>
